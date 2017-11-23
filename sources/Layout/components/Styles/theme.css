@@ -1,0 +1,50 @@
+@value charcoalgrey: #2a2d34;
+@value dark: #212429;
+@value peachypink: #ff9a7a;
+@value orangered: #ff5722;
+@value palegold: #fbde6e;
+@value goldenrod: #f9c80e;
+@value burntsienna: #cc451b;
+@value ocher: #c7a00b;
+@value tealishgreen: #0cce6b;
+@value white: #f3f3f3;
+@value emerald: #09a455;
+@value lightsage: #cef5e1;
+@value cerulean: #009ddc;
+@value silver: #d4d5d6;
+@value tealblue: #007db0;
+@value pale: #fdf4ce;
+@value lightteal: #6de1a6;
+@value duckeggblue: #ccebf8;
+@value palegrey: #eaeaeb;
+@value steelgrey: #7f8185;
+@value lightblue: #66c4ea;
+@value lightpeach: #ffddd2;
+@value whitetwo50: rgba(255, 255, 255, 0.5);
+@value whitetwo: #ffffff;
+@value dark80: rgba(33, 36, 41, 0.8);
+@value black: #000000;
+@value black10: rgba(33, 33, 33, 0.1);
+
+@value grey: steelgrey;
+@value info: cerulean;
+@value inverse: whitetwo;
+@value success: tealishgreen;
+@value warning: goldenrod;
+@value primary: orangered;
+
+@value primarytext: dark;
+@value linkcolor: cerulean;
+@value background: white;
+
+/* BUTTON */
+@value borderRadius: 4px;
+@value buttonFontSize: 14px;
+@value borderColor: silver;
+
+/* HEADER */
+@value headerHeight: 48px;
+
+@value gutter: 24px;
+@value mgutter: -24px;
+@value controlHeight: 40px;

@@ -1,0 +1,9 @@
+.DS_Store
+public/dist
+server
+node_modules
+npm-debug.log
+*.sublime-project
+*.sublime-workspace
+yarn-error.log
+yarn.lock

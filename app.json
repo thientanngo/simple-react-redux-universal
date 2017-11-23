@@ -1,0 +1,12 @@
+{
+	"apps": [
+	{
+		"name": "Tiki Mobile Web",
+		"script": "./server/index.js",
+		"source_map_support": true,
+		"instances": 6,
+		"exec_mode": "cluster_mode",
+		"watch": ["sources"],
+		"ignore_watch": ["node_modules"]
+	}]
+}

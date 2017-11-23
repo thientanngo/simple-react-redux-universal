@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/public/fonts/google-fonts/Roboto_400_normal.eot?v123);
+    src: local('☺'),
+        url(/public/fonts/google-fonts/Roboto_400_normal.eot?v123#iefix) format('embedded-opentype'),
+        url(/public/fonts/google-fonts/Roboto_400_normal.woff?v123) format('woff'),
+        url(/public/fonts/google-fonts/Roboto_400_normal.ttf?v123) format('truetype'),
+        url(/public/fonts/google-fonts/Roboto_400_normal.svg?v123#Roboto_400_normal) format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(/public/fonts/google-fonts/Roboto_500_normal.eot?v123);
+    src: local('☺'),
+        url(/public/fonts/google-fonts/Roboto_500_normal.eot?v123#iefix) format('embedded-opentype'),
+        url(/public/fonts/google-fonts/Roboto_500_normal.woff?v123) format('woff'),
+        url(/public/fonts/google-fonts/Roboto_500_normal.ttf?v123) format('truetype'),
+        url(/public/fonts/google-fonts/Roboto_500_normal.svg?v123#Roboto_500_normal) format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(/public/fonts/google-fonts/Roboto_700_normal.eot?v123);
+    src: local('☺'),
+        url(/public/fonts/google-fonts/Roboto_700_normal.eot?v123#iefix) format('embedded-opentype'),
+        url(/public/fonts/google-fonts/Roboto_700_normal.woff?v123) format('woff'),
+        url(/public/fonts/google-fonts/Roboto_700_normal.ttf?v123) format('truetype'),
+        url(/public/fonts/google-fonts/Roboto_700_normal.svg?v123#Roboto_700_normal) format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: url(/public/fonts/google-fonts/Roboto_400_italic.eot?v123);
+    src: local('☺'),
+        url(/public/fonts/google-fonts/Roboto_400_italic.eot?v123#iefix) format('embedded-opentype'),
+        url(/public/fonts/google-fonts/Roboto_400_italic.woff?v123) format('woff'),
+        url(/public/fonts/google-fonts/Roboto_400_italic.ttf?v123) format('truetype'),
+        url(/public/fonts/google-fonts/Roboto_400_italic.svg?v123#Roboto_400_italic) format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: url(/public/fonts/google-fonts/Roboto_500_italic.eot?v123);
+    src: local('☺'),
+        url(/public/fonts/google-fonts/Roboto_500_italic.eot?v123#iefix) format('embedded-opentype'),
+        url(/public/fonts/google-fonts/Roboto_500_italic.woff?v123) format('woff'),
+        url(/public/fonts/google-fonts/Roboto_500_italic.ttf?v123) format('truetype'),
+        url(/public/fonts/google-fonts/Roboto_500_italic.svg?v123#Roboto_500_italic) format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: url(/public/fonts/google-fonts/Roboto_700_italic.eot?v123);
+    src: local('☺'),
+        url(/public/fonts/google-fonts/Roboto_700_italic.eot?v123#iefix) format('embedded-opentype'),
+        url(/public/fonts/google-fonts/Roboto_700_italic.woff?v123) format('woff'),
+        url(/public/fonts/google-fonts/Roboto_700_italic.ttf?v123) format('truetype'),
+        url(/public/fonts/google-fonts/Roboto_700_italic.svg?v123#Roboto_700_italic) format('svg');
+}
+
+
+@font-face {
+    font-family: 'icons';
+    src: url(/public/fonts/icons/icons.ttf) format('truetype'),
+        url(/public/fonts/icons/icons.woff) format('woff'),
+        url(/public/fonts/icons/icons.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:global .icon {
+    font-family: 'icons' !important;
+    font-size: 20px;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+    font-feature-settings: "liga";
+    font-variant-ligatures: discretionary-ligatures;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

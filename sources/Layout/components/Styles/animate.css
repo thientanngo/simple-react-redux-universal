@@ -1,0 +1,63 @@
+:root {
+	--skeleton-light: #edeef1;
+	--skeleton-base: #f6f7f8;
+	--tiki-color: #00b7f1;
+}
+
+@keyframes skeleton {
+    0% {
+        background-position: -400px 0;
+    }
+    100% {
+        background-position: 400px 0;
+    }
+}
+
+@keyframes spin-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+:global(.overlay-enter) {
+	opacity: 0;
+	transition: opacity 300ms ease;
+
+	&:global(.overlay-enter-active) {
+		opacity: 1;
+	}
+}
+
+:global(.overlay-leave) {
+	opacity: 1;
+	transition: opacity 300ms ease;
+
+	&:global(.overlay-leave-active) {
+		opacity: 0;
+	}
+}
+
+:global(.skeleton) {
+	animation: skeleton 1s ease infinite forwards;
+	height: 10px;
+	background-color: var(--skeleton-base);
+	background-image: linear-gradient(to right, var(--skeleton-base) 0%, var(--skeleton-light) 20%, var(--skeleton-base) 40%, var(--skeleton-base) 100%);
+	background-size: 300% 100%;
+}
+
+:global(.spinner) {
+	display: inline-block;
+	width: 54px;
+	height: 54px;
+	border-radius: 50%;
+	box-shadow: 0 1px 0 0 var(--tiki-color);
+	animation: spin-animation 1s linear infinite;
+
+	&:global(.small) {
+		width: 34px;
+		height: 34px;
+	}
+}
